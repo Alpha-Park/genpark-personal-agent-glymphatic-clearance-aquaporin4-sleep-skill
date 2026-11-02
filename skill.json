@@ -1,0 +1,26 @@
+{
+  "name": "genpark-personal-agent-glymphatic-clearance-aquaporin4-sleep-skill",
+  "version": "1.0.0",
+  "description": "Models Nedergaard glymphatic system convective clearance, SWS interstitial space expansion (+64%), posture coefficients, and AQP4 astrocytic flux.",
+  "tools": [
+    {
+      "name": "model_nocturnal_glymphatic_flux",
+      "description": "Calculates nocturnal Neuro-Metabolic Solute Clearance Score (NMSCS), SWS interstitial expansion, and washout.",
+      "parameters": {
+        "slow_wave_sleep_minutes": "float (default 85.0)",
+        "rem_sleep_minutes": "float (default 95.0)",
+        "total_sleep_hours": "float (default 7.5)",
+        "sleep_position": "string (default 'lateral_right')",
+        "alcohol_consumed_evening": "boolean (default false)"
+      }
+    },
+    {
+      "name": "prescribe_glymphatic_optimization_routine",
+      "description": "Prescribes biomechanical posture and chronobiological routine to maximize convective brain waste clearance.",
+      "parameters": {
+        "baseline_sws_minutes": "float (default 60.0)",
+        "habitual_position": "string (default 'supine')"
+      }
+    }
+  ]
+}
